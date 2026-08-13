@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  opencode-runtime:
+    build: .
+    container_name: opencode-llm-sidecar
+    ports:
+      - "4096:4096"
+    env_file:
+      - .env
+    restart: unless-stopped
+    volumes:
+      - opencode-data:/root/.local/share/opencode
+
+volumes:
+  opencode-data:

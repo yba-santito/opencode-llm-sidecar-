@@ -1,0 +1,2940 @@
+{
+  "nodes": [
+    {
+      "file": "benchmarks/run.py",
+      "language": "Python"
+    },
+    {
+      "file": "bin/install.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "bin/lib/openclaw.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "bin/lib/opencode-agent.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "bin/lib/owned-install.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "bin/lib/portable-process.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "bin/lib/settings.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "browse/cdp.go",
+      "language": "Go"
+    },
+    {
+      "file": "browse/cdp_integration_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "browse/cdp_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "browse/cmd/caveman-browse/detach_unix.go",
+      "language": "Go"
+    },
+    {
+      "file": "browse/cmd/caveman-browse/detach_windows.go",
+      "language": "Go"
+    },
+    {
+      "file": "browse/cmd/caveman-browse/main.go",
+      "language": "Go"
+    },
+    {
+      "file": "browse/cmd/caveman-browse/main_integration_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "browse/cmd/caveman-browse/main_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "browse/session.go",
+      "language": "Go"
+    },
+    {
+      "file": "browse/session_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "cacheengine/cachebench/cachebench_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "cacheengine/cachebench/corpus.go",
+      "language": "Go"
+    },
+    {
+      "file": "cacheengine/cachebench/corpus_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "cacheengine/cachebench/equivalence.go",
+      "language": "Go"
+    },
+    {
+      "file": "cacheengine/cachebench/observed.go",
+      "language": "Go"
+    },
+    {
+      "file": "cacheengine/cachebench/render.go",
+      "language": "Go"
+    },
+    {
+      "file": "cacheengine/cachebench/replay.go",
+      "language": "Go"
+    },
+    {
+      "file": "cacheengine/cachebench/replay_http.go",
+      "language": "Go"
+    },
+    {
+      "file": "cacheengine/cachebench/replay_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "cacheengine/cachebench/scripts/lmcache_parquet_to_jsonl.py",
+      "language": "Python"
+    },
+    {
+      "file": "cacheengine/cachebench/simulate.go",
+      "language": "Go"
+    },
+    {
+      "file": "cacheengine/cachebench/strictjson.go",
+      "language": "Go"
+    },
+    {
+      "file": "cacheengine/cachebench/trace.go",
+      "language": "Go"
+    },
+    {
+      "file": "cacheengine/cachebench/types.go",
+      "language": "Go"
+    },
+    {
+      "file": "cacheengine/cmd/cache-experiment/main.go",
+      "language": "Go"
+    },
+    {
+      "file": "cacheengine/cmd/cache-replay/main.go",
+      "language": "Go"
+    },
+    {
+      "file": "cacheengine/cmd/cache-replay/main_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "cacheengine/cmd/cachebench/main.go",
+      "language": "Go"
+    },
+    {
+      "file": "cacheengine/doc.go",
+      "language": "Go"
+    },
+    {
+      "file": "cacheengine/engine.go",
+      "language": "Go"
+    },
+    {
+      "file": "cacheengine/example_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "cacheengine/native.go",
+      "language": "Go"
+    },
+    {
+      "file": "cacheengine/native_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "cacheengine/observation_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "cacheengine/openai.go",
+      "language": "Go"
+    },
+    {
+      "file": "cacheengine/planner_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "cacheengine/profiles.go",
+      "language": "Go"
+    },
+    {
+      "file": "cacheengine/raw_usage.go",
+      "language": "Go"
+    },
+    {
+      "file": "cacheengine/raw_usage_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "cacheengine/types.go",
+      "language": "Go"
+    },
+    {
+      "file": "cacheengine/validation.go",
+      "language": "Go"
+    },
+    {
+      "file": "cacheengine/wire_anthropic_bedrock.go",
+      "language": "Go"
+    },
+    {
+      "file": "cacheengine/wire_parity_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "cli/install.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "engine/axtree_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/ccr/retry_busy_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/ccr/store.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/ccr/store_full_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/ccr/store_permissions_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/ccr/store_sqlite.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/ccr/store_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/ccr/store_wasm.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/cmd/caveman-engine/main.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/cmd/caveman-engine/main_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/cmd/caveman-engine/pixel_density_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/cmd/caveman-wasm/main.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/cmd/caveman-wasm/main_other.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/axtree.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/axtree_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/breadth_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/capabilities_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/code_cgo.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/code_cgo_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/code_langs_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/code_listing.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/code_listing_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/code_nocgo.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/code_options.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/code_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/compressor.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/config.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/config_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/diff.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/html.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/html_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/invariants.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/invariants_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/json.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/json_strategy.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/json_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/log.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/log_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/redundancy.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/redundancy_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/relevance.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/repetition.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/repetition_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/searchresult.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/tabular.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/tabular_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/terminal.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/terminal_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/text.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/toolschema.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/toolschema_annotations.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/toolschema_annotations_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/toolschema_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/toon.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/toon_decode.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/toon_eligible.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/toon_encode.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/toon_roundtrip_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/toon_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/zz_adversarial_probe2_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/zz_adversarial_probe3_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/compressors/zz_adversarial_probe_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/contextwindow/contextwindow.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/contextwindow/contextwindow_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/detect.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/detect_html_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/detect_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/engine.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/engine_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/evals/cgo_off_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/evals/cgo_on_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/evals/fixtures/sample.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/evals/fixtures/sample.py",
+      "language": "Python"
+    },
+    {
+      "file": "engine/evals/fixtures/sample.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "engine/evals/graders.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/evals/harness.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/evals/harness_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/evals/probes.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/evals/quality.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/evals/words.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/image/image.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/image/image_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/image/tokens.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/listing.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/listing_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/applicability.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/applicability_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/atlas.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/atlas_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/density.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/density_gate_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/density_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/doc.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/factsheet.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/factsheet_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/gate.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/gate_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/glyphs_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/golden_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/gpt_profiles.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/history_anthropic.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/history_anthropic_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/history_openai.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/history_openai_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/overlay.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/overlay_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/png.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/pricing.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/pricing_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/render.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/render_density_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/render_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/schemastrip.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/schemastrip_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/textprep.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/textprep_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/transform_anthropic.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/transform_anthropic_density_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/transform_anthropic_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/transform_anthropic_twolayer_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/transform_gemini.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/transform_gemini_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/transform_openai.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/transform_openai_density_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/transform_openai_regression_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/transform_openai_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/types.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/pixel/types_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/result.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/retrieve_query.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/retrieve_query_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/safety/safety.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/safety/safety_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/simulate_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/terminal_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/tokens/tokens.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/tokens/tokens_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "engine/toon.go",
+      "language": "Go"
+    },
+    {
+      "file": "evals/llm_run.py",
+      "language": "Python"
+    },
+    {
+      "file": "evals/measure.py",
+      "language": "Python"
+    },
+    {
+      "file": "evals/plot.py",
+      "language": "Python"
+    },
+    {
+      "file": "extension/icons/generate-icons.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "extension/popup.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "extension/src/background.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "extension/src/caveman.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "extension/src/directive.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "extension/store-assets/flame.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "mcp/cmd/caveman-mcp/main.go",
+      "language": "Go"
+    },
+    {
+      "file": "mcp/cmd/caveman-mcp/main_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "mcp/engine_tools.go",
+      "language": "Go"
+    },
+    {
+      "file": "mcp/engine_tools_antistorm_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "mcp/protocol.go",
+      "language": "Go"
+    },
+    {
+      "file": "mcp/retrieve_integration_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "mcp/server.go",
+      "language": "Go"
+    },
+    {
+      "file": "mcp/server_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "mem/bm25.go",
+      "language": "Go"
+    },
+    {
+      "file": "mem/bm25_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "mem/cmd/cavemem/main.go",
+      "language": "Go"
+    },
+    {
+      "file": "mem/cmd/cavemem/main_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "mem/py/cavemem.py",
+      "language": "Python"
+    },
+    {
+      "file": "mem/py/tests/test_cavemem.py",
+      "language": "Python"
+    },
+    {
+      "file": "mem/recall_budget_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "mem/store.go",
+      "language": "Go"
+    },
+    {
+      "file": "mem/store_concurrency_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "mem/store_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "packages/agent/src/adapters.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/agent/src/breakers.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/agent/src/budget.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/agent/src/build.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/agent/src/catalog.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/agent/src/claude-runtime.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/agent/src/claude.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/agent/src/cli.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/agent/src/code.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/agent/src/compaction.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/agent/src/context-ir.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/agent/src/definition-graph.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/agent/src/dev-loader.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/agent/src/execution-kernel.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/agent/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/agent/src/memory-store.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/agent/src/portable-process.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/agent/src/primitives.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/agent/src/runtime-identity.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/agent/src/runtime.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/agent/src/sandbox-network.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/agent/src/sandbox-probe-worker.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/agent/src/source-graph.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/agent/src/tool-worker.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/agent/tests/framework.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/cli/src/agent-mcp.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/cli/src/agent-skills.generated.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/cli/src/agents.generated.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/cli/src/binaries.generated.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/cli/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/cli/src/learn-tui.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/cli/src/native-hook-fast.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/cli/src/native-pack.generated.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/cli/src/portable-command.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/cli/src/practices.generated.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/cli/src/recipes.generated.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/cli/src/reserved-verbs.generated.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/cli/src/verified-methods.mirror.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/create-caveman-agent/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/graders/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/kit/src/badge.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/kit/src/core.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/kit/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/kit/src/trial.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/kit/tests/types.test.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/mastra/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/mastra/tests/types.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/sdk/python/caveman_cloud/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "packages/sdk/python/caveman_cloud/core.py",
+      "language": "Python"
+    },
+    {
+      "file": "packages/sdk/python/tests/test_assembly.py",
+      "language": "Python"
+    },
+    {
+      "file": "packages/sdk/python/tests/test_context_pack.py",
+      "language": "Python"
+    },
+    {
+      "file": "packages/sdk/python/tests/test_exporter.py",
+      "language": "Python"
+    },
+    {
+      "file": "packages/sdk/python/tests/test_packaging.py",
+      "language": "Python"
+    },
+    {
+      "file": "packages/sdk/python/tests/test_parity.py",
+      "language": "Python"
+    },
+    {
+      "file": "packages/sdk/python/tests/test_runtime_policy.py",
+      "language": "Python"
+    },
+    {
+      "file": "packages/sdk/python/tests/test_sdk.py",
+      "language": "Python"
+    },
+    {
+      "file": "packages/sdk/python/tests/test_shared_context.py",
+      "language": "Python"
+    },
+    {
+      "file": "packages/sdk/python/tests/test_structural.py",
+      "language": "Python"
+    },
+    {
+      "file": "packages/sdk/python/tests/test_task_profile.py",
+      "language": "Python"
+    },
+    {
+      "file": "packages/sdk/python/tests/test_tool_events.py",
+      "language": "Python"
+    },
+    {
+      "file": "packages/sdk/python/tests/test_trace_continuity.py",
+      "language": "Python"
+    },
+    {
+      "file": "packages/sdk/typescript/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/sdk/typescript/tests/assembly.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/sdk/typescript/tests/context-pack.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/sdk/typescript/tests/exporter.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/sdk/typescript/tests/runtime-policy.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/sdk/typescript/tests/task-profile.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/sdk/typescript/tests/tool-search.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "plugins/caveman/skills/caveman-compress/scripts/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "plugins/caveman/skills/caveman-compress/scripts/__main__.py",
+      "language": "Python"
+    },
+    {
+      "file": "plugins/caveman/skills/caveman-compress/scripts/benchmark.py",
+      "language": "Python"
+    },
+    {
+      "file": "plugins/caveman/skills/caveman-compress/scripts/cli.py",
+      "language": "Python"
+    },
+    {
+      "file": "plugins/caveman/skills/caveman-compress/scripts/compress.py",
+      "language": "Python"
+    },
+    {
+      "file": "plugins/caveman/skills/caveman-compress/scripts/detect.py",
+      "language": "Python"
+    },
+    {
+      "file": "plugins/caveman/skills/caveman-compress/scripts/validate.py",
+      "language": "Python"
+    },
+    {
+      "file": "proxy/cmd/caveman-proxy/main.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/cmd/caveman-proxy/main_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/doc.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/config/config.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/config/config_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/agent_evidence_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/auth_fallback.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/auth_fallback_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/authmode.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/authmode_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/breakpoint_plan.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/breakpoint_plan_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/capture.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/capture_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/chatgpt.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/chatgpt_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/compress_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/compression_query.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/compression_query_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/compression_savings_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/estimate_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/gemini_bare_route_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/headers.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/headers_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/ledger.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/ledger_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/live_zone_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/pixel.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/pixel_density_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/pixel_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/prefix_monitor.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/prefix_monitor_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/prefix_stability_payg_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/prefix_stability_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/pricing_semantics_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/proxy.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/recovery_exempt_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/retrieve_tool.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/retrieve_tool_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/server.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/server_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/subscription_live_zone_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/toolschema_strip.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/toolschema_strip_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/gateway/usage_aggregation_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/nativehook/hook.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/nativehook/hook_unix_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/nativepack/pack.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/nativepack/pack_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/nativeruntime/explain.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/nativeruntime/marker.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/nativeruntime/marker_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/nativeruntime/mask_elidable_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/nativeruntime/mask_recoverability_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/nativeruntime/receipt.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/nativeruntime/runtime.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/nativeruntime/runtime_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/nativeruntime/server_common.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/nativeruntime/server_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/nativeruntime/server_unix.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/nativeruntime/server_unix_path_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/nativeruntime/server_windows.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/nativeruntime/server_windows_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/repointel/index.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/repointel/index_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/repointel/symbols_cgo.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/repointel/symbols_nocgo.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/runstate/runstate.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/runstate/runstate_notwindows.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/runstate/runstate_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/runstate/runstate_windows.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/sessionusage/sessionusage.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/standalone/standalone.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/standalone/standalone_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/standalone/toon_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/standalone/zzsplit_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/store/agent_evidence_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/store/cache_columns_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/store/config_scan.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/store/learn.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/store/learn_loops.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/store/learn_loops_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/store/learn_retro.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/store/learn_retro_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/store/learn_sidecar_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/store/learn_types.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/store/observe_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/store/practice_mapping.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/store/practice_mapping_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/store/prefix_cache.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/store/prefix_cache_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/store/prefix_stability_e2e_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/store/prefix_stability_openai_e2e_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/store/recurring.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/store/report.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/store/session_usage_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/store/store.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/store/store_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/store/trial_feature_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/store/trial_store.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/store/trial_types.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/internal/store/usage_import.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/adapter.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/adapter_contract_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/adapter_raw_usage_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/adapter_usage_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/agentpath.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/agentpath_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/anthropic/anthropic.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/anthropic/automatic_cache.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/anthropic/automatic_cache_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/anthropic/breakpoint_plan.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/anthropic/breakpoint_plan_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/anthropic/cache_breakpoints.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/anthropic/cache_breakpoints_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/anthropic/cogs_bench_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/anthropic/content_compress.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/anthropic/content_compress_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/anthropic/count_tokens.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/anthropic/count_tokens_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/anthropic/frozen.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/anthropic/splice.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/azureopenai/azure_routing.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/azureopenai/azure_routing_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/azureopenai/azureopenai.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/azureopenai/content_compress_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/bedrock/bedrock.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/bedrock/bedrock_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/bedrock/cache_points.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/bedrock/cache_points_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/bedrock/compress_sign_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/bedrock/count_tokens.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/bedrock/count_tokens_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/bedrock/routing.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/bedrock/signing.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/bedrock/usage.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/bedrock/usage_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/compression_coverage.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/compression_coverage_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/gemini/content_compress.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/gemini/content_compress_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/gemini/count_tokens.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/gemini/count_tokens_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/gemini/explicit_cache.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/gemini/explicit_cache_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/gemini/gemini.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/gemini/gemini_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/gemini/prefix_stability_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/gemini/recovery_exempt_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/internal/counttokens/counttokens.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/internal/counttokens/counttokens_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/jsonsplice/jsonsplice.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/jsonsplice/jsonsplice_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/openai/cache_key.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/openai/cache_key_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/openai/content_compress.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/openai/content_compress_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/openai/count_tokens.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/openai/count_tokens_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/openai/openai.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/openai/output_brevity.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/openai/output_brevity_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/openai/prefix_stability_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/openai/reasoning_effort.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/openai/reasoning_effort_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/openai/recovery_exempt_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/openai/session_cache_key.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/openai/session_cache_key_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/openai/stream_usage.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/openai/stream_usage_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/openaicompat/content_compress_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/openaicompat/openaicompat.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/openaicompat/openaicompat_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/toolzone.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/toolzone_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/vertex/adc_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/vertex/routing.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/vertex/usage_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/vertex/vertex.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/providers/vertex/vertex_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/routing/benchmark.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/routing/benchmark_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/routing/cascade.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/routing/cascade_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/routing/confidence.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/routing/confidence_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/routing/routing.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/routing/routing_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/routing/session_value.go",
+      "language": "Go"
+    },
+    {
+      "file": "proxy/routing/session_value_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "rewriter/gate.go",
+      "language": "Go"
+    },
+    {
+      "file": "rewriter/gate_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "rewriter/prompt.go",
+      "language": "Go"
+    },
+    {
+      "file": "rewriter/prompt_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "rewriter/provider.go",
+      "language": "Go"
+    },
+    {
+      "file": "rewriter/rewriter.go",
+      "language": "Go"
+    },
+    {
+      "file": "rewriter/rewriter_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "rewriter/tokens.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/awssig/awssig.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/awssig/awssig_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/cacheguard/cacheguard.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/cacheguard/cacheguard_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/catalog/catalog.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/catalog/catalog_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/chhttp/chhttp.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/chhttp/chhttp_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/cost/cost.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/cost/cost_contract_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/cost/cost_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/env/env.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/env/env_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/envelope/envelope.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/envelope/envelope_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/githubapp/githubapp.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/githubapp/githubapp_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/httpx/httpx.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/httpx/httpx_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/id/id.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/id/id_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/importers/caveman_jsonl.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/importers/generic.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/importers/helicone.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/importers/importers.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/importers/importers_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/importers/langfuse.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/importers/otlp.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/importers/provenance_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/kms/kms.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/kms/kms_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/objectstore/compress.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/objectstore/compress_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/objectstore/memory.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/objectstore/objectstore.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/objectstore/objectstore_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/optimizers/optimizers.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/optimizers/optimizers_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/postgresconfig/postgresconfig.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/postgresconfig/postgresconfig_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/proposalrun/proposalrun.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/proposalrun/proposalrun_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/providerorigin/providerorigin.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/providerorigin/providerorigin_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/redact/payload.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/redact/payload_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/redact/redact.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/redact/redact_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/redact/residual.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/redact/residual_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/runtimeenv/runtimeenv.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/runtimeenv/runtimeenv_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/safety/safety.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/safety/safety_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/sampling/sampling.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/sampling/sampling_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/secretbox/secretbox.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/secretbox/secretbox_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/security/keys.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/security/keys_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/ssrf/ssrf.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/ssrf/ssrf_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/ssrf/ssrf_zone_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/telemetry/span.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/telemetry/span_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/tenantkey/tenantkey.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/platform/tenantkey/tenantkey_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/provider-catalog/catalog_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "shared/provider-catalog/tests/test_validate_catalog.py",
+      "language": "Python"
+    },
+    {
+      "file": "shared/provider-catalog/validate_catalog.py",
+      "language": "Python"
+    },
+    {
+      "file": "shrink/cmd/caveman-shrink/main.go",
+      "language": "Go"
+    },
+    {
+      "file": "shrink/cmd/caveman-shrink/main_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "shrink/shrink.go",
+      "language": "Go"
+    },
+    {
+      "file": "shrink/shrink_test.go",
+      "language": "Go"
+    },
+    {
+      "file": "skills/caveman-compress/scripts/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "skills/caveman-compress/scripts/__main__.py",
+      "language": "Python"
+    },
+    {
+      "file": "skills/caveman-compress/scripts/benchmark.py",
+      "language": "Python"
+    },
+    {
+      "file": "skills/caveman-compress/scripts/cli.py",
+      "language": "Python"
+    },
+    {
+      "file": "skills/caveman-compress/scripts/compress.py",
+      "language": "Python"
+    },
+    {
+      "file": "skills/caveman-compress/scripts/detect.py",
+      "language": "Python"
+    },
+    {
+      "file": "skills/caveman-compress/scripts/validate.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/hooks/cavecrew-model-overrides.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/hooks/caveman-activate.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/hooks/caveman-config.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/hooks/caveman-mode-tracker.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/hooks/caveman-parse.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/hooks/caveman-stats.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/mcp-servers/caveman-shrink/compress.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/mcp-servers/caveman-shrink/index.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/mcp-servers/caveman-shrink/spawn-options.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/plugins/opencode/plugin.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/tools/caveman-init.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "tests/test_benchmark_contract.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/test_cavecrew_model_overrides.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "tests/test_caveman_init.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "tests/test_caveman_parse.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "tests/test_caveman_stats.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "tests/test_compress_safety.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/test_detect.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/test_hooks.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/test_mcp_shrink.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "tests/test_mode_tracker.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/test_mode_tracker_stdin.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "tests/test_repo_local_config.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "tests/test_symlink_flag.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "tests/test_validate_inline.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/verify_repo.py",
+      "language": "Python"
+    },
+    {
+      "file": "ui/src/index.ts",
+      "language": "TypeScript"
+    }
+  ],
+  "edges": [
+    {
+      "source": "benchmarks/run.py",
+      "target": "engine/compressors/json.go",
+      "import_type": "import",
+      "line_number": 6
+    },
+    {
+      "source": "benchmarks/run.py",
+      "target": "proxy/providers/anthropic/anthropic.go",
+      "import_type": "import",
+      "line_number": 15
+    },
+    {
+      "source": "bin/install.js",
+      "target": "bin/lib/settings.js",
+      "import_type": "require",
+      "line_number": 25
+    },
+    {
+      "source": "bin/install.js",
+      "target": "bin/lib/openclaw.js",
+      "import_type": "require",
+      "line_number": 26
+    },
+    {
+      "source": "bin/install.js",
+      "target": "bin/lib/owned-install.js",
+      "import_type": "require",
+      "line_number": 27
+    },
+    {
+      "source": "bin/install.js",
+      "target": "bin/lib/opencode-agent.js",
+      "import_type": "require",
+      "line_number": 28
+    },
+    {
+      "source": "bin/install.js",
+      "target": "bin/lib/portable-process.js",
+      "import_type": "require",
+      "line_number": 29
+    },
+    {
+      "source": "browse/cmd/caveman-browse/main_test.go",
+      "target": "packages/agent/src/runtime.ts",
+      "import_type": "import",
+      "line_number": 9
+    },
+    {
+      "source": "cacheengine/cachebench/scripts/lmcache_parquet_to_jsonl.py",
+      "target": "engine/compressors/json.go",
+      "import_type": "import",
+      "line_number": 8
+    },
+    {
+      "source": "cacheengine/cmd/cache-replay/main.go",
+      "target": "packages/agent/src/runtime.ts",
+      "import_type": "import",
+      "line_number": 17
+    },
+    {
+      "source": "cacheengine/cmd/cache-replay/main_test.go",
+      "target": "packages/agent/src/runtime.ts",
+      "import_type": "import",
+      "line_number": 14
+    },
+    {
+      "source": "engine/ccr/store_permissions_test.go",
+      "target": "packages/agent/src/runtime.ts",
+      "import_type": "import",
+      "line_number": 8
+    },
+    {
+      "source": "engine/ccr/store_sqlite.go",
+      "target": "packages/agent/src/runtime.ts",
+      "import_type": "import",
+      "line_number": 16
+    },
+    {
+      "source": "engine/image/image_test.go",
+      "target": "engine/image/image.go",
+      "import_type": "import",
+      "line_number": 5
+    },
+    {
+      "source": "engine/pixel/golden_test.go",
+      "target": "engine/image/image.go",
+      "import_type": "import",
+      "line_number": 9
+    },
+    {
+      "source": "engine/pixel/png.go",
+      "target": "engine/image/image.go",
+      "import_type": "import",
+      "line_number": 8
+    },
+    {
+      "source": "engine/pixel/render_density_test.go",
+      "target": "engine/image/image.go",
+      "import_type": "import",
+      "line_number": 7
+    },
+    {
+      "source": "engine/pixel/transform_anthropic_density_test.go",
+      "target": "engine/image/image.go",
+      "import_type": "import",
+      "line_number": 7
+    },
+    {
+      "source": "engine/pixel/transform_anthropic_test.go",
+      "target": "engine/image/image.go",
+      "import_type": "import",
+      "line_number": 11
+    },
+    {
+      "source": "engine/pixel/transform_openai_test.go",
+      "target": "engine/image/image.go",
+      "import_type": "import",
+      "line_number": 9
+    },
+    {
+      "source": "evals/llm_run.py",
+      "target": "engine/compressors/json.go",
+      "import_type": "import",
+      "line_number": 30
+    },
+    {
+      "source": "evals/measure.py",
+      "target": "engine/compressors/json.go",
+      "import_type": "import",
+      "line_number": 19
+    },
+    {
+      "source": "evals/plot.py",
+      "target": "engine/compressors/json.go",
+      "import_type": "import",
+      "line_number": 14
+    },
+    {
+      "source": "mem/cmd/cavemem/main_test.go",
+      "target": "packages/agent/src/runtime.ts",
+      "import_type": "import",
+      "line_number": 10
+    },
+    {
+      "source": "mem/py/cavemem.py",
+      "target": "engine/compressors/json.go",
+      "import_type": "import",
+      "line_number": 10
+    },
+    {
+      "source": "mem/py/tests/test_cavemem.py",
+      "target": "engine/compressors/json.go",
+      "import_type": "import",
+      "line_number": 3
+    },
+    {
+      "source": "mem/py/tests/test_cavemem.py",
+      "target": "cacheengine/cachebench/types.go",
+      "import_type": "from",
+      "line_number": 6
+    },
+    {
+      "source": "mem/py/tests/test_cavemem.py",
+      "target": "mem/py/cavemem.py",
+      "import_type": "import",
+      "line_number": 10
+    },
+    {
+      "source": "packages/sdk/python/caveman_cloud/__init__.py",
+      "target": "packages/kit/src/core.ts",
+      "import_type": "from",
+      "line_number": 1
+    },
+    {
+      "source": "packages/sdk/python/caveman_cloud/core.py",
+      "target": "engine/compressors/json.go",
+      "import_type": "import",
+      "line_number": 5
+    },
+    {
+      "source": "packages/sdk/python/tests/test_assembly.py",
+      "target": "engine/compressors/json.go",
+      "import_type": "import",
+      "line_number": 4
+    },
+    {
+      "source": "packages/sdk/python/tests/test_context_pack.py",
+      "target": "engine/compressors/json.go",
+      "import_type": "import",
+      "line_number": 3
+    },
+    {
+      "source": "packages/sdk/python/tests/test_exporter.py",
+      "target": "engine/compressors/json.go",
+      "import_type": "import",
+      "line_number": 3
+    },
+    {
+      "source": "packages/sdk/python/tests/test_parity.py",
+      "target": "engine/compressors/json.go",
+      "import_type": "import",
+      "line_number": 14
+    },
+    {
+      "source": "packages/sdk/python/tests/test_runtime_policy.py",
+      "target": "engine/compressors/json.go",
+      "import_type": "import",
+      "line_number": 20
+    },
+    {
+      "source": "packages/sdk/python/tests/test_runtime_policy.py",
+      "target": "packages/sdk/python/caveman_cloud/core.py",
+      "import_type": "from",
+      "line_number": 31
+    },
+    {
+      "source": "packages/sdk/python/tests/test_sdk.py",
+      "target": "engine/compressors/json.go",
+      "import_type": "import",
+      "line_number": 3
+    },
+    {
+      "source": "packages/sdk/python/tests/test_shared_context.py",
+      "target": "engine/compressors/json.go",
+      "import_type": "import",
+      "line_number": 5
+    },
+    {
+      "source": "packages/sdk/python/tests/test_task_profile.py",
+      "target": "engine/compressors/json.go",
+      "import_type": "import",
+      "line_number": 3
+    },
+    {
+      "source": "packages/sdk/python/tests/test_tool_events.py",
+      "target": "engine/compressors/json.go",
+      "import_type": "import",
+      "line_number": 6
+    },
+    {
+      "source": "packages/sdk/python/tests/test_trace_continuity.py",
+      "target": "engine/compressors/json.go",
+      "import_type": "import",
+      "line_number": 5
+    },
+    {
+      "source": "packages/sdk/python/tests/test_trace_continuity.py",
+      "target": "packages/sdk/python/caveman_cloud/core.py",
+      "import_type": "from",
+      "line_number": 13
+    },
+    {
+      "source": "plugins/caveman/skills/caveman-compress/scripts/__main__.py",
+      "target": "packages/agent/src/cli.ts",
+      "import_type": "from",
+      "line_number": 1
+    },
+    {
+      "source": "plugins/caveman/skills/caveman-compress/scripts/benchmark.py",
+      "target": "plugins/caveman/skills/caveman-compress/scripts/validate.py",
+      "import_type": "from",
+      "line_number": 10
+    },
+    {
+      "source": "plugins/caveman/skills/caveman-compress/scripts/cli.py",
+      "target": "plugins/caveman/skills/caveman-compress/scripts/compress.py",
+      "import_type": "from",
+      "line_number": 24
+    },
+    {
+      "source": "plugins/caveman/skills/caveman-compress/scripts/cli.py",
+      "target": "engine/detect.go",
+      "import_type": "from",
+      "line_number": 25
+    },
+    {
+      "source": "plugins/caveman/skills/caveman-compress/scripts/compress.py",
+      "target": "engine/detect.go",
+      "import_type": "from",
+      "line_number": 168
+    },
+    {
+      "source": "plugins/caveman/skills/caveman-compress/scripts/compress.py",
+      "target": "plugins/caveman/skills/caveman-compress/scripts/validate.py",
+      "import_type": "from",
+      "line_number": 169
+    },
+    {
+      "source": "plugins/caveman/skills/caveman-compress/scripts/compress.py",
+      "target": "proxy/providers/anthropic/anthropic.go",
+      "import_type": "import",
+      "line_number": 193
+    },
+    {
+      "source": "plugins/caveman/skills/caveman-compress/scripts/detect.py",
+      "target": "engine/compressors/json.go",
+      "import_type": "import",
+      "line_number": 4
+    },
+    {
+      "source": "proxy/internal/nativeruntime/marker_test.go",
+      "target": "packages/agent/src/runtime.ts",
+      "import_type": "import",
+      "line_number": 7
+    },
+    {
+      "source": "proxy/internal/nativeruntime/runtime_test.go",
+      "target": "packages/agent/src/runtime.ts",
+      "import_type": "import",
+      "line_number": 10
+    },
+    {
+      "source": "proxy/internal/runstate/runstate.go",
+      "target": "packages/agent/src/runtime.ts",
+      "import_type": "import",
+      "line_number": 15
+    },
+    {
+      "source": "proxy/internal/runstate/runstate_test.go",
+      "target": "packages/agent/src/runtime.ts",
+      "import_type": "import",
+      "line_number": 8
+    },
+    {
+      "source": "proxy/internal/store/learn.go",
+      "target": "packages/agent/src/runtime.ts",
+      "import_type": "import",
+      "line_number": 12
+    },
+    {
+      "source": "proxy/internal/store/learn_retro_test.go",
+      "target": "packages/agent/src/runtime.ts",
+      "import_type": "import",
+      "line_number": 8
+    },
+    {
+      "source": "proxy/internal/store/learn_sidecar_test.go",
+      "target": "packages/agent/src/runtime.ts",
+      "import_type": "import",
+      "line_number": 7
+    },
+    {
+      "source": "proxy/providers/gemini/content_compress_test.go",
+      "target": "packages/agent/src/runtime.ts",
+      "import_type": "import",
+      "line_number": 6
+    },
+    {
+      "source": "proxy/providers/openai/content_compress_test.go",
+      "target": "packages/agent/src/runtime.ts",
+      "import_type": "import",
+      "line_number": 7
+    },
+    {
+      "source": "shared/platform/redact/payload_test.go",
+      "target": "packages/agent/src/runtime.ts",
+      "import_type": "import",
+      "line_number": 6
+    },
+    {
+      "source": "skills/caveman-compress/scripts/__main__.py",
+      "target": "packages/agent/src/cli.ts",
+      "import_type": "from",
+      "line_number": 1
+    },
+    {
+      "source": "skills/caveman-compress/scripts/benchmark.py",
+      "target": "plugins/caveman/skills/caveman-compress/scripts/validate.py",
+      "import_type": "from",
+      "line_number": 10
+    },
+    {
+      "source": "skills/caveman-compress/scripts/cli.py",
+      "target": "plugins/caveman/skills/caveman-compress/scripts/compress.py",
+      "import_type": "from",
+      "line_number": 24
+    },
+    {
+      "source": "skills/caveman-compress/scripts/cli.py",
+      "target": "engine/detect.go",
+      "import_type": "from",
+      "line_number": 25
+    },
+    {
+      "source": "skills/caveman-compress/scripts/compress.py",
+      "target": "engine/detect.go",
+      "import_type": "from",
+      "line_number": 168
+    },
+    {
+      "source": "skills/caveman-compress/scripts/compress.py",
+      "target": "plugins/caveman/skills/caveman-compress/scripts/validate.py",
+      "import_type": "from",
+      "line_number": 169
+    },
+    {
+      "source": "skills/caveman-compress/scripts/compress.py",
+      "target": "proxy/providers/anthropic/anthropic.go",
+      "import_type": "import",
+      "line_number": 193
+    },
+    {
+      "source": "skills/caveman-compress/scripts/detect.py",
+      "target": "engine/compressors/json.go",
+      "import_type": "import",
+      "line_number": 4
+    },
+    {
+      "source": "src/hooks/caveman-activate.js",
+      "target": "src/hooks/caveman-config.js",
+      "import_type": "require",
+      "line_number": 12
+    },
+    {
+      "source": "src/hooks/caveman-activate.js",
+      "target": "src/hooks/cavecrew-model-overrides.js",
+      "import_type": "require",
+      "line_number": 21
+    },
+    {
+      "source": "src/hooks/caveman-mode-tracker.js",
+      "target": "src/hooks/caveman-config.js",
+      "import_type": "require",
+      "line_number": 9
+    },
+    {
+      "source": "src/hooks/caveman-mode-tracker.js",
+      "target": "src/hooks/caveman-parse.js",
+      "import_type": "require",
+      "line_number": 10
+    },
+    {
+      "source": "src/hooks/caveman-parse.js",
+      "target": "src/hooks/caveman-config.js",
+      "import_type": "require",
+      "line_number": 45
+    },
+    {
+      "source": "src/hooks/caveman-stats.js",
+      "target": "src/hooks/caveman-config.js",
+      "import_type": "require",
+      "line_number": 13
+    },
+    {
+      "source": "src/mcp-servers/caveman-shrink/index.js",
+      "target": "plugins/caveman/skills/caveman-compress/scripts/compress.py",
+      "import_type": "require",
+      "line_number": 32
+    },
+    {
+      "source": "src/mcp-servers/caveman-shrink/index.js",
+      "target": "src/mcp-servers/caveman-shrink/spawn-options.js",
+      "import_type": "require",
+      "line_number": 45
+    },
+    {
+      "source": "src/plugins/opencode/plugin.js",
+      "target": "src/hooks/caveman-config.js",
+      "import_type": "require",
+      "line_number": 68
+    },
+    {
+      "source": "tests/test_cavecrew_model_overrides.js",
+      "target": "src/hooks/cavecrew-model-overrides.js",
+      "import_type": "require",
+      "line_number": 13
+    },
+    {
+      "source": "tests/test_caveman_parse.js",
+      "target": "src/hooks/caveman-parse.js",
+      "import_type": "require",
+      "line_number": 16
+    },
+    {
+      "source": "tests/test_detect.py",
+      "target": "plugins/caveman/skills/caveman-compress/scripts/detect.py",
+      "import_type": "from",
+      "line_number": 18
+    },
+    {
+      "source": "tests/test_hooks.py",
+      "target": "engine/compressors/json.go",
+      "import_type": "import",
+      "line_number": 1
+    },
+    {
+      "source": "tests/test_mode_tracker.py",
+      "target": "engine/compressors/json.go",
+      "import_type": "import",
+      "line_number": 16
+    },
+    {
+      "source": "tests/test_repo_local_config.js",
+      "target": "src/hooks/caveman-config.js",
+      "import_type": "require",
+      "line_number": 21
+    },
+    {
+      "source": "tests/test_symlink_flag.js",
+      "target": "src/hooks/caveman-config.js",
+      "import_type": "require",
+      "line_number": 13
+    },
+    {
+      "source": "tests/test_validate_inline.py",
+      "target": "plugins/caveman/skills/caveman-compress/scripts/validate.py",
+      "import_type": "from",
+      "line_number": 9
+    },
+    {
+      "source": "tests/verify_repo.py",
+      "target": "engine/compressors/json.go",
+      "import_type": "import",
+      "line_number": 7
+    },
+    {
+      "source": "tests/verify_repo.py",
+      "target": "plugins/caveman/skills/caveman-compress/scripts/benchmark.py",
+      "import_type": "import",
+      "line_number": 265
+    },
+    {
+      "source": "tests/verify_repo.py",
+      "target": "plugins/caveman/skills/caveman-compress/scripts/cli.py",
+      "import_type": "import",
+      "line_number": 266
+    },
+    {
+      "source": "tests/verify_repo.py",
+      "target": "plugins/caveman/skills/caveman-compress/scripts/compress.py",
+      "import_type": "import",
+      "line_number": 267
+    },
+    {
+      "source": "tests/verify_repo.py",
+      "target": "plugins/caveman/skills/caveman-compress/scripts/detect.py",
+      "import_type": "import",
+      "line_number": 268
+    },
+    {
+      "source": "tests/verify_repo.py",
+      "target": "plugins/caveman/skills/caveman-compress/scripts/validate.py",
+      "import_type": "import",
+      "line_number": 269
+    }
+  ]
+}

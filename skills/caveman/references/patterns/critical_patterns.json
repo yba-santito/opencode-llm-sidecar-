@@ -1,0 +1,37 @@
+[
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/tmp/caveman-build/caveman/packages/sdk/python/caveman_cloud/core.py",
+    "class_name": "OTelExporter",
+    "method_name": null,
+    "line_number": 1604,
+    "evidence": [
+      "Factory method: new_trace_id",
+      "Factory method: new_span_id",
+      "Factory method: build_payload",
+      "Multiple factory methods: new_trace_id, new_span_id, build_payload"
+    ],
+    "related_classes": [],
+    "file_path": "/tmp/caveman-build/caveman/packages/sdk/python/caveman_cloud/core.py"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/tmp/caveman-build/caveman/packages/sdk/typescript/src/index.ts",
+    "class_name": "OTelExporter",
+    "method_name": null,
+    "line_number": 2119,
+    "evidence": [
+      "Factory method: newTraceId",
+      "Factory method: newSpanId",
+      "Factory method: buildPayload",
+      "Factory method: buildPayloadFor",
+      "Multiple factory methods: newTraceId, newSpanId, buildPayload"
+    ],
+    "related_classes": [],
+    "file_path": "/tmp/caveman-build/caveman/packages/sdk/typescript/src/index.ts"
+  }
+]

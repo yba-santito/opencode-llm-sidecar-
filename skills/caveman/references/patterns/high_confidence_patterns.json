@@ -1,0 +1,479 @@
+[
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/tmp/caveman-build/caveman/packages/sdk/python/caveman_cloud/core.py",
+    "class_name": "OTelExporter",
+    "method_name": null,
+    "line_number": 1604,
+    "evidence": [
+      "Factory method: new_trace_id",
+      "Factory method: new_span_id",
+      "Factory method: build_payload",
+      "Multiple factory methods: new_trace_id, new_span_id, build_payload"
+    ],
+    "related_classes": [],
+    "file_path": "/tmp/caveman-build/caveman/packages/sdk/python/caveman_cloud/core.py"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/tmp/caveman-build/caveman/packages/sdk/typescript/src/index.ts",
+    "class_name": "OTelExporter",
+    "method_name": null,
+    "line_number": 2119,
+    "evidence": [
+      "Factory method: newTraceId",
+      "Factory method: newSpanId",
+      "Factory method: buildPayload",
+      "Factory method: buildPayloadFor",
+      "Multiple factory methods: newTraceId, newSpanId, buildPayload"
+    ],
+    "related_classes": [],
+    "file_path": "/tmp/caveman-build/caveman/packages/sdk/typescript/src/index.ts"
+  },
+  {
+    "pattern_type": "Observer",
+    "category": "Behavioral",
+    "confidence": 0.75,
+    "location": "/tmp/caveman-build/caveman/packages/sdk/typescript/src/index.ts",
+    "class_name": "CaveTrace",
+    "method_name": "emitToolEvent",
+    "line_number": null,
+    "evidence": [
+      "Observer method detected: emitToolEvent",
+      "EventEmitter pattern detected"
+    ],
+    "related_classes": [],
+    "file_path": "/tmp/caveman-build/caveman/packages/sdk/typescript/src/index.ts"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "/tmp/caveman-build/caveman/engine/compressors/json_strategy.go",
+    "class_name": "jsonStrategy",
+    "method_name": null,
+    "line_number": 8,
+    "evidence": [
+      "Class name suggests Strategy: jsonStrategy"
+    ],
+    "related_classes": [],
+    "file_path": "/tmp/caveman-build/caveman/engine/compressors/json_strategy.go"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "/tmp/caveman-build/caveman/engine/listing.go",
+    "class_name": "listingWrapper",
+    "method_name": null,
+    "line_number": 16,
+    "evidence": [
+      "Class name suggests Adapter: listingWrapper"
+    ],
+    "related_classes": [],
+    "file_path": "/tmp/caveman-build/caveman/engine/listing.go"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "/tmp/caveman-build/caveman/packages/cli/src/index.ts",
+    "class_name": "BinaryDownloadError",
+    "method_name": null,
+    "line_number": 2029,
+    "evidence": [
+      "Part of strategy family with: AgentMcpHTTPError",
+      "Strategy interface method: constructor"
+    ],
+    "related_classes": [
+      "Error"
+    ],
+    "file_path": "/tmp/caveman-build/caveman/packages/cli/src/index.ts"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "/tmp/caveman-build/caveman/packages/cli/src/index.ts",
+    "class_name": "AgentMcpHTTPError",
+    "method_name": null,
+    "line_number": 14169,
+    "evidence": [
+      "Part of strategy family with: BinaryDownloadError",
+      "Strategy interface method: constructor"
+    ],
+    "related_classes": [
+      "Error"
+    ],
+    "file_path": "/tmp/caveman-build/caveman/packages/cli/src/index.ts"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "/tmp/caveman-build/caveman/packages/sdk/python/caveman_cloud/core.py",
+    "class_name": "PolicyDecision",
+    "method_name": null,
+    "line_number": 2147,
+    "evidence": [
+      "Class name suggests Strategy: PolicyDecision"
+    ],
+    "related_classes": [],
+    "file_path": "/tmp/caveman-build/caveman/packages/sdk/python/caveman_cloud/core.py"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "/tmp/caveman-build/caveman/packages/sdk/python/caveman_cloud/core.py",
+    "class_name": "RuntimePolicyState",
+    "method_name": null,
+    "line_number": 2173,
+    "evidence": [
+      "Class name suggests Strategy: RuntimePolicyState"
+    ],
+    "related_classes": [],
+    "file_path": "/tmp/caveman-build/caveman/packages/sdk/python/caveman_cloud/core.py"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "/tmp/caveman-build/caveman/packages/sdk/python/caveman_cloud/core.py",
+    "class_name": "RuntimePolicyRefresh",
+    "method_name": null,
+    "line_number": 2185,
+    "evidence": [
+      "Class name suggests Strategy: RuntimePolicyRefresh"
+    ],
+    "related_classes": [],
+    "file_path": "/tmp/caveman-build/caveman/packages/sdk/python/caveman_cloud/core.py"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "/tmp/caveman-build/caveman/packages/sdk/python/caveman_cloud/core.py",
+    "class_name": "RuntimePolicyClient",
+    "method_name": null,
+    "line_number": 2193,
+    "evidence": [
+      "Class name suggests Strategy: RuntimePolicyClient"
+    ],
+    "related_classes": [],
+    "file_path": "/tmp/caveman-build/caveman/packages/sdk/python/caveman_cloud/core.py"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "/tmp/caveman-build/caveman/packages/sdk/typescript/src/index.ts",
+    "class_name": "AssemblyStabilityError",
+    "method_name": null,
+    "line_number": 157,
+    "evidence": [
+      "Part of strategy family with: RetryLoopError, AsyncJobsUnavailableError, CaveRequestError",
+      "Strategy interface method: constructor"
+    ],
+    "related_classes": [
+      "Error"
+    ],
+    "file_path": "/tmp/caveman-build/caveman/packages/sdk/typescript/src/index.ts"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "/tmp/caveman-build/caveman/packages/sdk/typescript/src/index.ts",
+    "class_name": "RetryLoopError",
+    "method_name": null,
+    "line_number": 647,
+    "evidence": [
+      "Part of strategy family with: AssemblyStabilityError, AsyncJobsUnavailableError, CaveRequestError",
+      "Strategy interface method: constructor"
+    ],
+    "related_classes": [
+      "Error"
+    ],
+    "file_path": "/tmp/caveman-build/caveman/packages/sdk/typescript/src/index.ts"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "/tmp/caveman-build/caveman/packages/sdk/typescript/src/index.ts",
+    "class_name": "AsyncJobsUnavailableError",
+    "method_name": null,
+    "line_number": 721,
+    "evidence": [
+      "Part of strategy family with: AssemblyStabilityError, RetryLoopError, CaveRequestError",
+      "Strategy interface method: constructor"
+    ],
+    "related_classes": [
+      "Error"
+    ],
+    "file_path": "/tmp/caveman-build/caveman/packages/sdk/typescript/src/index.ts"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "/tmp/caveman-build/caveman/packages/sdk/typescript/src/index.ts",
+    "class_name": "RuntimePolicyClient",
+    "method_name": null,
+    "line_number": 1068,
+    "evidence": [
+      "Class name suggests Strategy: RuntimePolicyClient"
+    ],
+    "related_classes": [],
+    "file_path": "/tmp/caveman-build/caveman/packages/sdk/typescript/src/index.ts"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "/tmp/caveman-build/caveman/packages/sdk/typescript/src/index.ts",
+    "class_name": "CaveRequestError",
+    "method_name": null,
+    "line_number": 2043,
+    "evidence": [
+      "Part of strategy family with: AssemblyStabilityError, RetryLoopError, AsyncJobsUnavailableError",
+      "Strategy interface method: constructor"
+    ],
+    "related_classes": [
+      "Error"
+    ],
+    "file_path": "/tmp/caveman-build/caveman/packages/sdk/typescript/src/index.ts"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "/tmp/caveman-build/caveman/proxy/internal/gateway/prefix_stability_test.go",
+    "class_name": "adapterWithoutPrefixStabilizer",
+    "method_name": null,
+    "line_number": 437,
+    "evidence": [
+      "Class name suggests Adapter: adapterWithoutPrefixStabilizer"
+    ],
+    "related_classes": [],
+    "file_path": "/tmp/caveman-build/caveman/proxy/internal/gateway/prefix_stability_test.go"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "/tmp/caveman-build/caveman/proxy/internal/gateway/server_test.go",
+    "class_name": "failingTransformAdapter",
+    "method_name": null,
+    "line_number": 23,
+    "evidence": [
+      "Class name suggests Adapter: failingTransformAdapter"
+    ],
+    "related_classes": [],
+    "file_path": "/tmp/caveman-build/caveman/proxy/internal/gateway/server_test.go"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "/tmp/caveman-build/caveman/proxy/internal/gateway/server_test.go",
+    "class_name": "mutatingTransformAdapter",
+    "method_name": null,
+    "line_number": 29,
+    "evidence": [
+      "Class name suggests Adapter: mutatingTransformAdapter"
+    ],
+    "related_classes": [],
+    "file_path": "/tmp/caveman-build/caveman/proxy/internal/gateway/server_test.go"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "/tmp/caveman-build/caveman/proxy/providers/adapter.go",
+    "class_name": "TransformPolicy",
+    "method_name": null,
+    "line_number": 162,
+    "evidence": [
+      "Class name suggests Strategy: TransformPolicy"
+    ],
+    "related_classes": [],
+    "file_path": "/tmp/caveman-build/caveman/proxy/providers/adapter.go"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "/tmp/caveman-build/caveman/proxy/providers/anthropic/anthropic.go",
+    "class_name": "Adapter",
+    "method_name": null,
+    "line_number": 12,
+    "evidence": [
+      "Class name suggests Adapter: Adapter"
+    ],
+    "related_classes": [],
+    "file_path": "/tmp/caveman-build/caveman/proxy/providers/anthropic/anthropic.go"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "/tmp/caveman-build/caveman/proxy/providers/azureopenai/azureopenai.go",
+    "class_name": "Adapter",
+    "method_name": null,
+    "line_number": 15,
+    "evidence": [
+      "Class name suggests Adapter: Adapter"
+    ],
+    "related_classes": [],
+    "file_path": "/tmp/caveman-build/caveman/proxy/providers/azureopenai/azureopenai.go"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "/tmp/caveman-build/caveman/proxy/providers/bedrock/bedrock.go",
+    "class_name": "Adapter",
+    "method_name": null,
+    "line_number": 14,
+    "evidence": [
+      "Class name suggests Adapter: Adapter"
+    ],
+    "related_classes": [],
+    "file_path": "/tmp/caveman-build/caveman/proxy/providers/bedrock/bedrock.go"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "/tmp/caveman-build/caveman/proxy/providers/gemini/explicit_cache.go",
+    "class_name": "Adapter",
+    "method_name": null,
+    "line_number": 17,
+    "evidence": [
+      "Class name suggests Adapter: Adapter"
+    ],
+    "related_classes": [],
+    "file_path": "/tmp/caveman-build/caveman/proxy/providers/gemini/explicit_cache.go"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "/tmp/caveman-build/caveman/proxy/providers/openai/cache_key.go",
+    "class_name": "Adapter",
+    "method_name": null,
+    "line_number": 20,
+    "evidence": [
+      "Class name suggests Adapter: Adapter"
+    ],
+    "related_classes": [],
+    "file_path": "/tmp/caveman-build/caveman/proxy/providers/openai/cache_key.go"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "/tmp/caveman-build/caveman/proxy/providers/openaicompat/openaicompat.go",
+    "class_name": "Adapter",
+    "method_name": null,
+    "line_number": 21,
+    "evidence": [
+      "Class name suggests Adapter: Adapter"
+    ],
+    "related_classes": [],
+    "file_path": "/tmp/caveman-build/caveman/proxy/providers/openaicompat/openaicompat.go"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "/tmp/caveman-build/caveman/proxy/providers/openaicompat/openaicompat.go",
+    "class_name": "namedAdapter",
+    "method_name": null,
+    "line_number": 156,
+    "evidence": [
+      "Class name suggests Adapter: namedAdapter"
+    ],
+    "related_classes": [],
+    "file_path": "/tmp/caveman-build/caveman/proxy/providers/openaicompat/openaicompat.go"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "/tmp/caveman-build/caveman/proxy/providers/vertex/vertex.go",
+    "class_name": "Adapter",
+    "method_name": null,
+    "line_number": 32,
+    "evidence": [
+      "Class name suggests Adapter: Adapter"
+    ],
+    "related_classes": [],
+    "file_path": "/tmp/caveman-build/caveman/proxy/providers/vertex/vertex.go"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "/tmp/caveman-build/caveman/proxy/routing/benchmark.go",
+    "class_name": "BenchmarkPolicy",
+    "method_name": null,
+    "line_number": 19,
+    "evidence": [
+      "Class name suggests Strategy: BenchmarkPolicy"
+    ],
+    "related_classes": [],
+    "file_path": "/tmp/caveman-build/caveman/proxy/routing/benchmark.go"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "/tmp/caveman-build/caveman/proxy/routing/routing.go",
+    "class_name": "FrontierPolicy",
+    "method_name": null,
+    "line_number": 94,
+    "evidence": [
+      "Class name suggests Strategy: FrontierPolicy"
+    ],
+    "related_classes": [],
+    "file_path": "/tmp/caveman-build/caveman/proxy/routing/routing.go"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "/tmp/caveman-build/caveman/proxy/routing/session_value.go",
+    "class_name": "SessionValuePolicyArtifact",
+    "method_name": null,
+    "line_number": 88,
+    "evidence": [
+      "Class name suggests Strategy: SessionValuePolicyArtifact"
+    ],
+    "related_classes": [],
+    "file_path": "/tmp/caveman-build/caveman/proxy/routing/session_value.go"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "/tmp/caveman-build/caveman/tests/test_validate_inline.py",
+    "class_name": "TestValidateIntegration",
+    "method_name": null,
+    "line_number": 85,
+    "evidence": [
+      "Part of strategy family with: TestExtractInlineCodes, TestValidateInlineCodes",
+      "Strategy interface method: test_validate_inline_codes_wired"
+    ],
+    "related_classes": [
+      "unittest.TestCase"
+    ],
+    "file_path": "/tmp/caveman-build/caveman/tests/test_validate_inline.py"
+  }
+]

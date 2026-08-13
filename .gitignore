@@ -427,3 +427,10 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# --- opencode-llm-sidecar ---
+.env
+auth.json
+*.key
+__pycache__/
+*.pyc
